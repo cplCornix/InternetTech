@@ -38,11 +38,11 @@
 
 1. **Сборка образа**:
    ```bash
-   docker build -t xml-route-comparator
+   docker build -t 2_backend_KosyanMedia
    ```
 2. **Запуск контейнера:**
    ```bash
-   docker run -v $(pwd)/xml_files:/app/xml_files \
+   docker run -v $(pwd)/2_backend_KosyanMedia \
            -v $(pwd)/results:/app/results \
-           xml-route-comparator
+           2_backend_KosyanMedia
    ```
