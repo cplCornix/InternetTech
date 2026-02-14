@@ -1,0 +1,17 @@
+version: '3'
+services:
+  server:
+    image: python:3.10-slim
+    working_dir: /data
+    command: python -m http.server 8000
+    volumes:
+      - ./tests/data:/data
+    ports:
+      - "8000:8000"
+  client:
+    build: .
+    command: python example.py
+    environment:
+      - MATRIX_URL=http://server:8000/matrix_4x4.txt
+    depends_on:
+      - server
