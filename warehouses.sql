@@ -1,16 +1,12 @@
-1. Создать таблицу:
-   ```
-	CREATE TABLE warehouses (
-		warehouse_id INT,
-		name VARCHAR(512),
-		city VARCHAR(512),
-		date_open DATE,
-		date_close DATE
-	)
-   ```
-2. Заполнить ее данными:
-   ```
-	INSERT INTO warehouses (warehouse_id, name, city, date_open, date_close) VALUES
+CREATE TABLE warehouses (
+    warehouse_id INT,
+    name VARCHAR(512),
+    city VARCHAR(512),
+    date_open DATE,
+    date_close DATE
+);
+
+INSERT INTO warehouses (warehouse_id, name, city, date_open, date_close) VALUES
 	('1', 'Storage Facility #1', 'Moscow', '2019-06-06T00:00:00.000Z', NULL),
 	('2', 'Storage Facility #2', 'Moscow', '2019-11-14T00:00:00.000Z', NULL),
 	('3', 'Storage Facility #3', 'Moscow', '2012-07-05T00:00:00.000Z', NULL),
@@ -311,6 +307,3 @@
 	('298', 'Storage Facility #298', 'Moscow', '2023-02-14T00:00:00.000Z', NULL),
 	('299', 'Storage Facility #299', 'Moscow', '2022-09-27T00:00:00.000Z', NULL),
 	('300', 'Storage Facility #300', 'Moscow', '2014-11-25T00:00:00.000Z', NULL);
-   ```
-
-3. Выполнить запрос.
