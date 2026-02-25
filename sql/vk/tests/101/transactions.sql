@@ -1,15 +1,11 @@
-1. Создать таблицу:
-   ```
-	CREATE TABLE transactions (
-		transaction_ts DATETIME,
-		user_id	INT,
-		transaction_id INT,
-		item VARCHAR(512)
-	)
-   ```
-2. Заполнить ее данными:
-   ```
-	INSERT INTO transactions (transaction_ts, user_id, transaction_id, item) VALUES
+CREATE TABLE transactions (
+    transaction_ts DATETIME,
+    user_id	INT,
+    transaction_id INT,
+    item VARCHAR(512)
+);
+
+INSERT INTO transactions (transaction_ts, user_id, transaction_id, item) VALUES
 	('2024-03-04T02:12:09.000Z', 4312667, 2124154420, 'tie'),
 	('2024-03-10T08:51:06.000Z', 8496052, 6627203372, 'backpack'),
 	('2024-03-04T14:53:14.000Z', 5545695, 3854867536, 'bag'),
@@ -80,6 +76,3 @@
 	('2024-02-22T14:59:20.000Z', 1883712, 4793004101, 'pant'),
 	('2024-02-28T06:16:11.000Z', 1883712, 6802049580, 'shoe'),
 	('2024-02-18T13:32:32.000Z', 4341574, 2848435855, 'pen');
-   ```
-
-3. Выполнить запрос.
