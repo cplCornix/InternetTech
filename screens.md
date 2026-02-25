@@ -1,3 +1,3 @@
-![screen1.jpg](screens/screen1.jpg)
+![screen1.jpg](sceens/screen.jpg)
 
 Вывод запроса
