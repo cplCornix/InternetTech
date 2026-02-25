@@ -4,4 +4,4 @@
 
 Amazon SQL and Python Task 1
 
-![2 image](media/2.png)
+![2 image](https://github.com/Hexlet/ru-test-assignments/raw/main/analytics/Amazon/media/2.png)
