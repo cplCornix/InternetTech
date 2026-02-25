@@ -10,4 +10,4 @@ Airpods, чтобы отправить им маркетинговое пред�
 
 Таблица и пример данных даны ниже:
 
-![1 image]([media/1.png](https://github.com/Hexlet/ru-test-assignments/blob/main/analytics/Amazon/media/1.png?raw=true))
+![1 image](https://github.com/Hexlet/ru-test-assignments/blob/main/analytics/Amazon/media/1.png?raw=true)
